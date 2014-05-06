@@ -19,12 +19,13 @@ html(lang='en')
         block header
           div.logo
             h1
-              a(href=locals.url)= locals.name
+              a(href='/')= locals.name
             p.description= locals.description
+            div.links
+              a(href='/contact.html') Contact
     div#content
       div.content-wrap
         block content
-          h2 Welcome to zombocom!
     footer
       div.content-wrap
         block footer
