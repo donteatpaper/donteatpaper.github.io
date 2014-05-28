@@ -3,7 +3,7 @@
     "url": "http://jeremybooks.com",
     "name": "Jeremy Books",
     "owner": "Jeremy Books",
-    "description": "3D Modeller Texture and Lighting Artist1"
+    "description": "3D Modeller and Surfacing Artist"
   },
   "plugins": [
     "./plugins/paginator.coffee"
