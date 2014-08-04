@@ -127,6 +127,14 @@ body.article-detail > header {
   margin-bottom: 3em;
 }
 
+div.links {
+  text-align: center;
+}
+
+div.links span {
+  padding: 0 10px;
+}
+
 /* page footer */
 
 footer {
