@@ -130,15 +130,12 @@ body.article-detail > header {
 }
 
 div.links {
-	 text-align: center;
-	 font-size: 1em;
-	 font-family: Papyrus;
- }
- 
- div.links span {
-   padding: 0 10px;
- }
- 
+  text-align: center;
+}
+
+div.links span {
+  padding: 0 10px;
+}
 
 /* page footer */
 
