@@ -22,7 +22,11 @@ html(lang='en')
               a(href='/')= locals.name
             p.description= locals.description
             div.links
+              a(href='/index.html') Home
+              span |
               a(href='/contact.html') Contact
+              span |
+              a(href='/archive.html') Demo Reel
     div#content
       div.content-wrap
         block content
