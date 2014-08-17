@@ -61,6 +61,11 @@ h3 {
   margin-bottom: 0.8em;
 }
 
+h4 {
+	font-family: arial;
+	text-align: center;
+}
+
 ol, ul {
   margin: 0 1.4em 1.4em 4em;
 }
