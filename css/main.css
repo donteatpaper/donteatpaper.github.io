@@ -7,7 +7,7 @@ body {
   font-family: 'Lora', serif;
   font-size: 21px;
   line-height: 1.52;
-  background-color: #f8f8f8;
+  background-color: #424242;
   text-rendering: optimizeLegibility;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 body, a {
-  color: #171717;
+  color: #f1f1f1;
 }
 
 a:hover {
@@ -41,6 +41,7 @@ pre {
 
 h1 {
   font-size: 2em;
+	font-family: Papyrus;
   margin-bottom: 1em;
 }
 
@@ -58,6 +59,12 @@ h3 {
   font-size: 1.4em;
   margin-top: 1.8em;
   margin-bottom: 0.8em;
+}
+
+h4 {
+	margin-top: 2em;
+	font-family: arial;
+	text-align: center;
 }
 
 ol, ul {
@@ -88,7 +95,7 @@ hr {
 }
 
 .header h1 {
-  font-size: 2.6em;
+  font-size: 2.2em;
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -96,7 +103,7 @@ hr {
 
 .header a, .header a:hover {
   text-decoration: none;
-  color: #171717;
+  color: #f2f2f2;
 }
 
 .header .author {
@@ -110,7 +117,8 @@ hr {
 }
 
 .header .description {
-  font-size: 1.2em;
+  font-size: 0.8em;
+	font-family: baskerville;
   font-style: italic;
   text-align: center;
   margin-top: -0.3em;
@@ -126,6 +134,17 @@ body.article-detail > header h1 {
 body.article-detail > header {
   margin-bottom: 3em;
 }
+
+div.links {
+	 text-align: center;
+	 font-size: 1em;
+	 font-family: Papyrus;
+ }
+ 
+ div.links span {
+   padding: 0 10px;
+ }
+ 
 
 /* page footer */
 
@@ -436,7 +455,7 @@ code.lang-markdown .bullet {
 }
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 59.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
