@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+  margin: 0 0 2em 0;
+  font-family: $header-font-family;
+
+  h1 {
+    font-size: $header-font-size;
+    font-weight: $header-font-weight;
+  }
+
+  .description {
+    font-family: $header-description-font-family;
+    font-size: $header-description-font-size;
+    font-style: italic;
+  }
+
+  .links {
+    span {
+      padding: 0 1em;
+    }
+  }
+
+  .logo {
+    margin: 2em 0 0.5em 0;
+  }
+}
